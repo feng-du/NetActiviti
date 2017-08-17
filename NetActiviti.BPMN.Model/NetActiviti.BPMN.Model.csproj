@@ -68,31 +68,81 @@
     <Compile Include="DataObject.cs" />
     <Compile Include="DataSpec.cs" />
     <Compile Include="DataStore.cs" />
+    <Compile Include="DataStoreReference.cs" />
+    <Compile Include="DateDataObject.cs" />
+    <Compile Include="DoubleDataObject.cs" />
+    <Compile Include="EndEvent.cs" />
+    <Compile Include="ErrorEventDefinition.cs" />
     <Compile Include="Event.cs" />
     <Compile Include="EventDefinition.cs" />
+    <Compile Include="EventGateway.cs" />
+    <Compile Include="EventListener.cs" />
+    <Compile Include="EventSubProcess.cs" />
+    <Compile Include="ExclusiveGateway.cs" />
     <Compile Include="ExtensionAttribute.cs" />
     <Compile Include="ExtensionElement.cs" />
     <Compile Include="FieldExtension.cs" />
     <Compile Include="FlowElement.cs" />
     <Compile Include="FlowNode.cs" />
+    <Compile Include="FormProperty.cs" />
+    <Compile Include="FormValue.cs" />
     <Compile Include="Gateway.cs" />
+    <Compile Include="GraphicInfo.cs" />
     <Compile Include="IComplexDataType.cs" />
     <Compile Include="IFlowElementsContainer.cs" />
     <Compile Include="IHasExecutionListeners.cs" />
     <Compile Include="IHasExtensionAttributes.cs" />
+    <Compile Include="ImplementationType.cs" />
+    <Compile Include="Import.cs" />
+    <Compile Include="InclusiveGateway.cs" />
+    <Compile Include="IntegerDataObject.cs" />
+    <Compile Include="Interface.cs" />
+    <Compile Include="IntermediateCatchEvent.cs" />
     <Compile Include="IOParameter.cs" />
     <Compile Include="IOSpecification.cs" />
     <Compile Include="ItemDefinition.cs" />
+    <Compile Include="Lane.cs" />
+    <Compile Include="LongDataObject.cs" />
+    <Compile Include="ManualTask.cs" />
     <Compile Include="MapExceptionEntry.cs" />
+    <Compile Include="Message.cs" />
+    <Compile Include="MessageEventDefinition.cs" />
+    <Compile Include="MessageFlow.cs" />
     <Compile Include="MultiInstanceLoopCharacteristics.cs" />
+    <Compile Include="Operation.cs" />
+    <Compile Include="ParallelGateway.cs" />
+    <Compile Include="Parse\Warning.cs" />
+    <Compile Include="Pool.cs" />
+    <Compile Include="Parse\Problem.cs" />
     <Compile Include="Process.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReceiveTask.cs" />
+    <Compile Include="Resource.cs" />
+    <Compile Include="ScriptTask.cs" />
+    <Compile Include="SendTask.cs" />
     <Compile Include="SequenceFlow.cs" />
+    <Compile Include="ServiceTask.cs" />
+    <Compile Include="Signal.cs" />
+    <Compile Include="SignalEventDefinition.cs" />
+    <Compile Include="StartEvent.cs" />
+    <Compile Include="StringDataObject.cs" />
     <Compile Include="SubProcess.cs" />
     <Compile Include="Task.cs" />
+    <Compile Include="TaskWithFieldExtensions.cs" />
+    <Compile Include="TerminateEventDefinition.cs" />
+    <Compile Include="TextAnnotation.cs" />
+    <Compile Include="ThrowEvent.cs" />
+    <Compile Include="TimerEventDefinition.cs" />
+    <Compile Include="Transaction.cs" />
+    <Compile Include="UserTask.cs" />
     <Compile Include="ValuedDataObject.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\NetActiviti.Common\NetActiviti.Common.csproj">
+      <Project>{e50bd457-4fde-401a-be67-15eb7bb8e99e}</Project>
+      <Name>NetActiviti.Common</Name>
+    </ProjectReference>
+  </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

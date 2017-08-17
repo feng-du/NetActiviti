@@ -10,11 +10,6 @@ namespace NetActiviti.BPMN.Model
     public class SubProcess : Activity, IFlowElementsContainer
     {
 
-        //protected Map<String, FlowElement> flowElementMap = new LinkedHashMap<String, FlowElement>();
-        //protected List<FlowElement> flowElementList = new ArrayList<FlowElement>();
-        //protected List<Artifact> artifactList = new ArrayList<Artifact>();
-        //protected List<ValuedDataObject> dataObjects = new ArrayList<ValuedDataObject>();
-
         public FlowElement GetFlowElement(string id)
         {
             FlowElement foundElement = null;

@@ -4,12 +4,19 @@ TestResults
 
 NetActiviti.BPMN.Converter/bin
 NetActiviti.BPMN.Converter/obj
-
 NetActiviti.BPMN.Converter.Test/bin
 NetActiviti.BPMN.Converter.Test/obj
 
 NetActiviti.BPMN.Model/bin
 NetActiviti.BPMN.Model/obj
-
 NetActiviti.BPMN.Model.Test/bin
 NetActiviti.BPMN.Model.Test/obj
+
+NetActiviti.BPMN.Validation/bin
+NetActiviti.BPMN.Validation/obj
+
+NetActiviti.Common/bin
+NetActiviti.Common/obj
+
+NetActiviti.BPMN.Layout/bin
+NetActiviti.BPMN.Layout/obj

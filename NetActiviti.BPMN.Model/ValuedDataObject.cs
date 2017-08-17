@@ -75,6 +75,7 @@ namespace NetActiviti.BPMN.Model
 
         public override int GetHashCode()
         {
+
             var hashCode = (ItemSubjectRef.StructureRef + Id + Name + value == null ? "" : value.ToString()).GetHashCode();
 
             return hashCode;

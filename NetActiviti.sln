@@ -5,13 +5,21 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetActiviti.BPMN.Converter", "NetActiviti.BPMN.Converter\NetActiviti.BPMN.Converter.csproj", "{B32ED4EC-8CB1-4132-BE4F-A2DF674AF63C}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{501A9C7B-8E7C-4A0E-A913-D7F9ACCC2DDB}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "00 Test", "00 Test", "{501A9C7B-8E7C-4A0E-A913-D7F9ACCC2DDB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetActiviti.BPMN.Converter.Test", "NetActiviti.BPMN.Converter.Test\NetActiviti.BPMN.Converter.Test.csproj", "{48905FDC-30E1-466D-B0C7-69A7FF1D5369}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetActiviti.BPMN.Model", "NetActiviti.BPMN.Model\NetActiviti.BPMN.Model.csproj", "{555C5E0B-4DFB-45B6-BBD7-82DDE8D81671}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetActiviti.BPMN.Model.Test", "NetActiviti.BPMN.Model.Test\NetActiviti.BPMN.Model.Test.csproj", "{F2E14808-C538-435E-9F81-A917CDE25B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetActiviti.Common", "NetActiviti.Common\NetActiviti.Common.csproj", "{E50BD457-4FDE-401A-BE67-15EB7BB8E99E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{3E768D68-91E3-4009-8001-0DED7ACE7969}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetActiviti.BPMN.Layout", "NetActiviti.BPMN.Layout\NetActiviti.BPMN.Layout.csproj", "{6DE62A0D-57CD-40E8-893E-B0B7767F3708}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetActiviti.Process.Validation", "NetActiviti.BPMN.Validation\NetActiviti.Process.Validation.csproj", "{FB639F1F-B42D-48D5-92DC-E9B4B47D8D0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +43,18 @@ Global
 		{F2E14808-C538-435E-9F81-A917CDE25B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2E14808-C538-435E-9F81-A917CDE25B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2E14808-C538-435E-9F81-A917CDE25B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E50BD457-4FDE-401A-BE67-15EB7BB8E99E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E50BD457-4FDE-401A-BE67-15EB7BB8E99E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E50BD457-4FDE-401A-BE67-15EB7BB8E99E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E50BD457-4FDE-401A-BE67-15EB7BB8E99E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE62A0D-57CD-40E8-893E-B0B7767F3708}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE62A0D-57CD-40E8-893E-B0B7767F3708}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE62A0D-57CD-40E8-893E-B0B7767F3708}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE62A0D-57CD-40E8-893E-B0B7767F3708}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB639F1F-B42D-48D5-92DC-E9B4B47D8D0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB639F1F-B42D-48D5-92DC-E9B4B47D8D0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB639F1F-B42D-48D5-92DC-E9B4B47D8D0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB639F1F-B42D-48D5-92DC-E9B4B47D8D0E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -42,5 +62,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{48905FDC-30E1-466D-B0C7-69A7FF1D5369} = {501A9C7B-8E7C-4A0E-A913-D7F9ACCC2DDB}
 		{F2E14808-C538-435E-9F81-A917CDE25B37} = {501A9C7B-8E7C-4A0E-A913-D7F9ACCC2DDB}
+		{E50BD457-4FDE-401A-BE67-15EB7BB8E99E} = {3E768D68-91E3-4009-8001-0DED7ACE7969}
 	EndGlobalSection
 EndGlobal

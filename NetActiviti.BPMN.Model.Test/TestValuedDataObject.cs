@@ -9,6 +9,7 @@ namespace NetActiviti.BPMN.Model.Test
         [TestMethod]
         public void Test_Equals()
         {
+
             var obj = new MockValuedDataObject()
             {
                 ItemSubjectRef = new ItemDefinition { StructureRef = "test" },
